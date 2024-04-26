@@ -1,8 +1,5 @@
 from flask import Flask, request, jsonify
-import os
-
 from utils import categorize_question, summarize_transcript
-
 
 app = Flask(__name__)
 

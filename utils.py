@@ -117,7 +117,7 @@ terminators = [
 # print(tokenizer.decode(response, skip_special_tokens=True))
 
 
-def run_model(messages, temperature=0.6, top_p=0.9):
+def run_model(messages, temperature=0.6, top_p=0.9, max_new_tokens=1024):
     input_ids = tokenizer.apply_chat_template(
         messages,
         add_generation_prompt=True,
@@ -134,7 +134,7 @@ def run_model(messages, temperature=0.6, top_p=0.9):
     with torch.no_grad():
         outputs = model.generate(
             input_ids,  # .module is used to access the original model within DataParallel
-            max_new_tokens=1024,
+            max_new_tokens=max_new_tokens,
             eos_token_id=terminators,
             do_sample=True,
             temperature=temperature,
@@ -156,7 +156,11 @@ def categorize_question(question: str) -> str:
     """
 
     messages = generate_categorization_prompt(question)
-    return run_model(messages)
+    response = run_model(messages, temperature=0.2, top_p=0.9, max_new_tokens=1)
+    if response in ['0', '1', '2', '3']:
+        return int(response)
+    else:
+        return 0
 
 
 
