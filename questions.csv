@@ -5,8 +5,9 @@ question,label
 "What was the date of the signing of the Declaration of Independence?",1
 "How might this scientific discovery change the way we understand the world?",3
 "Does the poem have a deeper meaning, or should it be taken literally?",2
-"Can you summarize the main points of the article?",1
+"Are you hungry?  Open questions that require more information in the answers usually go down in intonation.  Why do you like them?",2
 "If you were in the character's position, what would you have done differently?",2
+"How long does it take to drive there?  What's the best restaurant to try?  What's the weather like at this time of year?",1
 "Was the French Revolution justified?",2
 "Does music truly have the power to heal?",3
 "What are the benefits of studying abroad?",2
@@ -20,7 +21,7 @@ question,label
 "What historical event has had the most significant impact on the world today?",3
 "Are you sure?",0
 "Can you explain your reasoning?",2
-"What's your name?",0
+"What's your name?",1
 "What is the meaning of life?",0
 "Is the pope Catholic?",0
 "How does this piece of art make you feel, and why?",2
@@ -52,10 +53,10 @@ question,label
 "Your program has a bug. How would you go about finding and fixing it?",3
 "What are the different components inside a computer and how do they work together?",1
 "Can you explain the concept of an algorithm in your own words?",3
-"Let's design a flowchart for a simple task, like making a sandwich.",0
+"Let's design a flowchart for a simple task, like making a sandwich.",2
 "What's the difference between a variable and a constant in programming?",1
 "Why is it important to comment on your code?",1
-"Have you ever thought about the people who create the apps you use?",0
+"Have you ever thought about the people who create the apps you use?",3
 "Which programming language would you like to learn and why?",2
 "Could a computer ever be truly creative?",2
 "Let's brainstorm some real-world problems that coding could help solve.",2
@@ -68,10 +69,10 @@ question,label
 "Why is open-source software important, and how does it differ from proprietary software?",2
 "What are the core components of a Linux system?",1
 "Compare and contrast different Linux distributions (e.g., Ubuntu vs. Fedora). When might you choose one over the other?",2
-"If Linux is so secure, why do we still hear about vulnerabilities?",0
+"If Linux is so secure, why do we still hear about vulnerabilities?",2
 "How can you use shell scripting to automate common tasks?",2
-"If the command line is so powerful, why do we bother with graphical interfaces?",0
-"In a world of user-friendly systems, is there still a place for the Linux expert?",0
+"If the command line is so powerful, why do we bother with graphical interfaces?",3
+"In a world of user-friendly systems, is there still a place for the Linux expert?",2
 "Does the freedom of open-source come with a greater responsibility?",0
 "In what ways does this novel reflect the historical period in which it was written?",2
 "What is the square root of 144?",1
@@ -81,7 +82,8 @@ question,label
 "What are the main causes of climate change?",1
 "Should students be required to wear uniforms? Why or why not?",2
 "In geometry, what is the formula for calculating the volume of a sphere?",1
-"Can art ever truly be separated from the artist's personal beliefs?",0
+"Can art ever truly be separated from the artist's personal beliefs?",3
 "What was the significance of the Battle of Gettysburg in the American Civil War?",1
 "What does this poem mean to you? Is there a deeper message beyond the words themselves?",2
-""
+"What are the key themes in this novel, and how do they contribute to the overall story?",2
+"What are the benefits and drawbacks of globalization?",3
